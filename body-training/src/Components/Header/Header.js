@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { HeaderContainer } from "./Header.style";
 import { HeaderOptions } from "../HeaderOptions/HeaderOptions.style";
-import Dashboard from "../HeaderOptions/Dashboard/Dashboard";
-import Recipes from "../HeaderOptions/Recipes/Recipes";
-import Challenge from "../HeaderOptions/Challenge/Challenge";
+import HeaderItem from "./HeaderItem";
 import User from "./User/User";
 
 function Header() {
@@ -16,17 +14,20 @@ function Header() {
   return (
     <HeaderContainer>
       <HeaderOptions>
-        <Dashboard
+        <HeaderItem
           onClickItem={() => setHeaderOptionActive(0)}
           isActive={isHeaderOptionOpen === 0}
+          text="Dashboard"
         />
-        <Recipes
+        <HeaderItem
           onClickItem={() => setHeaderOptionActive(1)}
           isActive={isHeaderOptionOpen === 1}
+          text="Recipes"
         />
-        <Challenge
+        <HeaderItem
           onClickItem={() => setHeaderOptionActive(2)}
           isActive={isHeaderOptionOpen === 2}
+          text="Challenge"
         />
       </HeaderOptions>
       <User />

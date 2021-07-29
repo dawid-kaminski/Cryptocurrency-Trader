@@ -1,4 +1,6 @@
 import Header from "./Components/Header/Header";
+import DietPlan from "./Components/Body/Body";
+import Footer from "./Components/Footer/Footer";
 import { AppContainer } from "./Components/Container/Container.style";
 import { GlobalStyles } from "./GlobalStyles.styles";
 import "./App.css";
@@ -8,6 +10,8 @@ function App() {
     <AppContainer>
       <GlobalStyles />
       <Header />
+      <DietPlan />
+      <Footer />
     </AppContainer>
   );
 }

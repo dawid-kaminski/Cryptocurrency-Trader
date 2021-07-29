@@ -8,4 +8,6 @@ export const AppContainer = styled.div`
   background-color: white;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
