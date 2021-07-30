@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BodyContainer = styled.div`
-  height: 60%;
+  height: 70%;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -15,41 +15,7 @@ export const BodyContainer = styled.div`
 export const Body = styled.div`
   height: 100%;
   width: 60%;
-  background-color: beige;
+  background-color: #f9f9f9;
   display: flex;
-`;
-
-export const NavBar = styled.div`
-  height: 20%;
-  width: 100%;
-  background-color: inherit;
-  display: flex;
-  flex-direction: row;
-`;
-
-export const WeeklyProgress = styled.div`
-  height: 100%;
-  width: 33.3%;
-  display: flex;
-  background-color: green;
-`;
-
-export const WeekCounter = styled.div`
-  height: 100%;
-  width: 33.3%;
-  display: flex;
-  background-color: inherit;
-`;
-
-export const Button = styled.button`
-  height: 50px;
-  width: 100px;
-  background-color: blue;
-`;
-
-export const ProteinOptions = styled.div`
-  height: 100%;
-  width: 33.3%;
-  display: flex;
-  background-color: inherit;
+  flex-direction: column;
 `;

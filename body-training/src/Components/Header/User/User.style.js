@@ -21,7 +21,7 @@ export const User = styled.div`
   justify-content: space-around;
 `;
 
-export const UserProfilePicture = styled.image`
+export const UserProfilePicture = styled.div`
   height: 50%;
   width: 50%;
   border-radius: 100%;

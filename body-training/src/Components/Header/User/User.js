@@ -14,8 +14,13 @@ function UserProfile() {
   return (
     <UserContainer>
       <User>
-        <UserProfilePicture>
-          <img src={Logo} height="50" width="50" border-radius="100%" />
+        <UserProfilePicture radius>
+          <img
+            src={Logo}
+            height="50"
+            width="50"
+            style={{ borderRadius: "50%" }}
+          />
         </UserProfilePicture>
         <UserProfileName>Olivia Wilde</UserProfileName>
         <UserChevronIcon>

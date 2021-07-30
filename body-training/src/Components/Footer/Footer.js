@@ -7,15 +7,11 @@ import {
   FooterText,
   ButtonContainer,
   Button,
+  FooterIcon,
 } from "./Footer.style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBook,
-  faQuestionCircle,
-  faFlagUsa,
-  faAngleDown,
-  faSearch,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faApple, faAndroid } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -28,7 +24,12 @@ function Footer() {
             Aliquet.
           </FooterText>
           <ButtonContainer>
-            <Button>Buy now</Button>
+            <Button>
+              Buy now
+              <FooterIcon Chevron>
+                <FontAwesomeIcon icon={faChevronRight} color="#7a7e7e" />
+              </FooterIcon>
+            </Button>
           </ButtonContainer>
         </FooterItem>
         <FooterItem border>
@@ -41,9 +42,23 @@ function Footer() {
           </FooterText>
           <ButtonContainer>
             <Button marginButtonLeft marginButtonRight>
+              <FooterIcon>
+                <FontAwesomeIcon icon={faApple} color="#7a7e7e" />
+              </FooterIcon>
               iOS
+              <FooterIcon Chevron>
+                <FontAwesomeIcon icon={faChevronRight} color="#7a7e7e" />
+              </FooterIcon>
             </Button>
-            <Button marginButtonLeft>Android</Button>
+            <Button marginButtonLeft>
+              <FooterIcon>
+                <FontAwesomeIcon icon={faAndroid} color="#7a7e7e" />
+              </FooterIcon>
+              Android
+              <FooterIcon Chevron>
+                <FontAwesomeIcon icon={faChevronRight} color="#7a7e7e" />
+              </FooterIcon>
+            </Button>
           </ButtonContainer>
         </FooterItem>
         <FooterItem>
@@ -56,8 +71,10 @@ function Footer() {
           </FooterText>
           <ButtonContainer>
             <Button marginButtonLeft>
-              <FontAwesomeIcon icon={faBook} color="#009e7f" />
               Read FAQs
+              <FooterIcon Chevron>
+                <FontAwesomeIcon icon={faChevronRight} color="#7a7e7e" />
+              </FooterIcon>
             </Button>
           </ButtonContainer>
         </FooterItem>
