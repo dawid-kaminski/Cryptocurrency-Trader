@@ -16,7 +16,7 @@
 
 ### What is this repository about
 
-#### Cryprocurrency-trader is a repository in which I used an API that allows the user to track sell and buy offers of cryptocurrencies.
+#### Cryptocurrency-trader is a repository in which I used an API that allows the user to track sell and buy offers of cryptocurrencies.
 
 ## &nbsp;
 
