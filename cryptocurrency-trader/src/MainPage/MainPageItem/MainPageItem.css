@@ -1,0 +1,47 @@
+.item {
+  height: calc(11% - 11px);
+  width: 100%;
+  margin: 5px 10px 5px 0px;
+  background-color: white;
+  border-bottom: 1px solid #eff2f5;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item__course {
+  height: 100%;
+  width: 20%;
+  background-color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.item__amount {
+  height: 100%;
+  width: 20%;
+  background-color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.item__value {
+  height: 100%;
+  width: 20%;
+  background-color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.item__offer {
+  height: 100%;
+  width: 20%;
+  background-color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}

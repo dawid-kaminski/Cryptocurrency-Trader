@@ -1,0 +1,18 @@
+.headline__container {
+  height: 10%;
+  width: 100%;
+  background-color: #0060ff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.headline {
+  height: 50%;
+  width: 95%;
+  display: flex;
+}
