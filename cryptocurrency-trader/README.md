@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Cryptocurrency-Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+&nbsp;
 
-## Available Scripts
+# Table of contents
 
-In the project directory, you can run:
+1. [What is this repository about](#introduction)
+2. [Tools and external libraries used for the project](#tools)
+3. [Presentation of the project](#presentation)
+4. [How to view the project](#installation)
+5. [Contact](#Contact)
+6. [License](#License)
+7. [Acknowledgments](#Acknowledgments)
+   &nbsp;
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a name="introduction"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### What is this repository about
 
-### `npm test`
+#### Cryptocurrency Tracker project is a repository in which I have made a simple website using API to let the user track different cryptocurrencies and their buy/sell price in relation to PLN.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## &nbsp;
 
-### `npm run build`
+<a name="tools"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools and external libraries used for the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  HTML 5
+2.  CSS 3
+3.  React
+4.  React Hooks
+5.  [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+6.  [BitBay API](https://docs.bitbay.net/reference#orderbook-2)
+    &nbsp;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+<a name="images"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Presentation of the Project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+&nbsp;
+![](presentation.gif)
+&nbsp;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a name="installation"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### How to view the project
 
-## Learn More
+#### In order to see the project simply clone the repository and run it in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## &nbsp;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contact
 
-### Code Splitting
+#### You can contact me via my personal Email: dawidk65@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## &nbsp;
 
-### Analyzing the Bundle Size
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### This project is licensed under the MIT License
 
-### Making a Progressive Web App
+## &nbsp;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Acknowledgments
 
-### Advanced Configuration
+#### Cryptocurrency Tracker project is a repository in which I have made a simple website using API to let the user track different cryptocurrencies and their buy/sell price in relation to PLN.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+&nbsp;
